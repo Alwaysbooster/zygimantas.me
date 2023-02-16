@@ -9,11 +9,7 @@ h1{
 h1.clicked{
     color: paleturquoise;
     background-color: white;
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
+    
 }
 p{
     color: palevioletred; margin-left: 40px; margin-top: 40px; font-size: larger;
