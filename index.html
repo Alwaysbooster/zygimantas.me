@@ -9,8 +9,14 @@
 </head>
   
 <body>
-    <h1>Zygimanto Mickaviciaus puslapis</h1>
+    <h1 onClick= "handleClick(this)">Zygimanto Mickaviciaus puslapis</h1>
     <p>Sveikas atvykes i mano puslapi</p>   
-    
+    <script>
+        function handleClick(node) {
+          var value = node.getAttribute('class') || '';
+          value = value === '' ? 'clicked' : '';
+          node.setAttribute('class', value);
+        }
+      </script>
 </body>
 </html>

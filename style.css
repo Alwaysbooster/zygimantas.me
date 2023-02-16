@@ -6,7 +6,7 @@ h1{
     color: white;
     background-color: paleturquoise; 
 }
-h1:hover{
+h1.clicked{
     color: paleturquoise;
     background-color: white;
     -webkit-transition: all 500ms ease-in-out;
