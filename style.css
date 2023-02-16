@@ -3,7 +3,12 @@ body{
     font-family: Montserrat, sans-serif;
 }
 h1{
-    color: white; background-color: paleturquoise; 
+    color: white;
+    background-color: paleturquoise; 
+}
+h1:hover{
+    color: paleturquoise;
+    background-color: white;
 }
 p{
     color: palevioletred; margin-left: 40px; margin-top: 40px; font-size: larger;
