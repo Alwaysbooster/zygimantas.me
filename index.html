@@ -14,43 +14,47 @@
 
 <body>
   <h1 onClick="handleClick(this)">Zygimanto Mickaviciaus puslapis</h1>
-  <ol>
-    <li><a href="#Technologijos">Technologijos</a></li>
-    <li><a href="#Hobiai">Hobiai</a></li>
-    <li><a href="#Zaidimai">Mėgstamiausi žaidimai</a></li>
-  </ol>
-  
+  <aside>
+    <nav>
+      <ol>
+        <li><a href="#Technologijos">Technologijos</a></li>
+        <li><a href="#Hobiai">Hobiai</a></li>
+        <li><a href="#Zaidimai">Mėgstamiausi žaidimai</a></li>
+      </ol>
+    </nav>
+  </aside>
+
   <h2>Sveikas atvykes i mano puslapi, stai keli faktai apie mane:</h2>
   <div id="Technologijos">
-  <h3>Technologijos su kuriomis esu susipazines:</h3>
-  <ul>
-    <li>HTML</li>
-    <li>C#</li>
-    <li>C++</li>
-    <li>Java</li>
-    <li>Unity</li>
-    <li>DaVinci resolve</li>
-  </ul>
-</div>
-<div id="Hobiai">
-  <h3>Mano hobiai:</h3>
-  <ul>
-    <li>Žaidimų kūryba</li>
-    <li>Programavimas</li>
-    <li>Vaizdo žaidimai</li>
-    <li>Skaitymas</li>
-    <li>Svorių kilnojimas</li>
-  </ul>
-</div>
-<div id="Zaidimai">
-  <h3>Mano mėgstamiausi žaidimai:</h3>
-  <ul>
-    <li>Minecraft</li>
-    <li>Garry's mod</li>
-    <li>Warzone</li>
-    <li>Dying light</li>
-  </ul>
-</div>
+    <h3>Technologijos su kuriomis esu susipazines:</h3>
+    <ul>
+      <li>HTML</li>
+      <li>C#</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li>Unity</li>
+      <li>DaVinci resolve</li>
+    </ul>
+  </div>
+  <div id="Hobiai">
+    <h3>Mano hobiai:</h3>
+    <ul>
+      <li>Žaidimų kūryba</li>
+      <li>Programavimas</li>
+      <li>Vaizdo žaidimai</li>
+      <li>Skaitymas</li>
+      <li>Svorių kilnojimas</li>
+    </ul>
+  </div>
+  <div id="Zaidimai">
+    <h3>Mano mėgstamiausi žaidimai:</h3>
+    <ul>
+      <li>Minecraft</li>
+      <li>Garry's mod</li>
+      <li>Warzone</li>
+      <li>Dying light</li>
+    </ul>
+  </div>
   <script>
     function handleClick(node) {
       var value = node.getAttribute('class') || '';
