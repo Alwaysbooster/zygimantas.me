@@ -4,10 +4,10 @@ body{
 }
 h1{
     color: white;
-    background-color: paleturquoise; 
+    background-color: palegreen; 
 }
 h1.clicked{
-    color: paleturquoise;
+    color: palegreen;
     background-color: white;
     
 }
