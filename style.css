@@ -12,5 +12,11 @@ h1.clicked{
     
 }
 p{
-    color: palevioletred; margin-left: 40px; margin-top: 40px; font-size: larger;
+    color: black; margin-left: 40px; margin-top: 40px; font-size: larger;
+}
+ul{
+    font-weight: bold;
+}
+ol{
+    background-color: palegreen;
 }
