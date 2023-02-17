@@ -14,7 +14,7 @@ h1.clicked{
 aside{
     background-color: palegreen;
     color: white;
-    float: left;
+    float: right;
 }
 ul{
     font-weight: bold;
