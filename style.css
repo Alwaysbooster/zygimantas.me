@@ -30,3 +30,6 @@ ol {
 p{
     margin-left: 40px;
 }
+tr:nth-child(odd) {
+    background-color: palegreen;
+  }
